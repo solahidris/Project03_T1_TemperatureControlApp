@@ -4,7 +4,7 @@ import React, { useState, useEffect } from "react";
 
 function App() {
   const [counter, setCounter] = useState(18);
-  const [backgroundColor, setBackgroundColor] = useState();
+  const [backgroundColor, setBackgroundColor] = useState("");
 
   useEffect(
     (backgroundColor) => {
